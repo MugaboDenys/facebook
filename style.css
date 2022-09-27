@@ -73,12 +73,12 @@ body {
     max-width: 40em;
 }
 .sect1Cont1 a{
-    font-size: 1.5rem;
+    font-size: 23px;
     color: rgb(41, 41, 41); 
 }
 
 .sect1Cont1 span{
-    font-size: 2rem;
+    font-size: 32px;
 }
 .link:hover{
     color: rgb(80, 80, 80); 
@@ -108,7 +108,7 @@ body {
     max-width: 60em;
 }
 .sect1Cont3 h5{
-    font-size: 3em;
+    font-size: 42px;
     font-weight: 300;
     color: rgb(43, 43, 43);
     text-align: center;
@@ -188,7 +188,7 @@ body {
     justify-self: start;
 }
 .sect2cont4Item h4{
-    font-size: 1.5em;
+    font-size: 20px;
     font-weight: 400;
 }
 
