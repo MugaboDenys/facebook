@@ -274,7 +274,7 @@ body {
 }
 .sect3F{
     padding: 4rem 0;
-    width: 60%;
+    width: 63%;
     margin: auto;
 }
 .sect3cont3 {
@@ -307,4 +307,41 @@ body {
 .sect3cont4Item span{
     font-size: 2em ;
     padding-right: 40px;
+}
+.sect3Cards {
+    padding: 4rem 0;
+    width: 63%;
+    margin: auto;
+}
+.cards{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 40px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.card img{
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.cardBody h4{
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+}
+.cardFooter h6{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(115, 115, 115);
+}
+.cardLink {
+    display: flex;
+    gap: 15px;
+    align-items: flex-end;
+    color: black;
 }
