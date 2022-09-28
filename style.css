@@ -7,6 +7,7 @@
 img {
     display: block;
 }
+
 a {text-decoration: none;}
 body {
     font-family: 'Poppins', sans-serif;
@@ -204,7 +205,7 @@ body {
 }
 
 .section3{
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -349,4 +350,73 @@ body {
     gap: 15px;
     align-items: flex-end;
     color: black;
+}
+.section4 {
+    background: rgb(227, 231, 231);
+    width: 100%;
+    padding-bottom: 6rem;  
+}
+.parent {
+    width: 80%;
+    margin: auto;
+    padding: 6rem 0;
+}
+.cols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.cols li{
+    list-style: none;
+    font-size: 10px;
+    padding-top: 13px;
+}
+.cols h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+.col1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.col1 img{
+    width: 6rem;
+}
+
+.col1 h4{
+    font-size: 13px;
+    font-weight: 400;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.col h2{
+    font-size: 18px;
+    color: rgb(103, 124, 144);
+}
+.social {
+    display: flex;
+    gap: 10px;
+}
+.social img{
+    width: 1.5rem;
+}
+@media (max-width: 640px){
+
+}
+@media (max-width: 768px){
+    
+}
+@media (max-width: 1024px){
+    
+}
+@media (max-width: 1280px){
+    
+}
+@media (max-width: 1536px){
+    
 }
